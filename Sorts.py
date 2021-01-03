@@ -35,6 +35,3 @@ def merge_sort(array):
         al, ar = a[:n//2], a[n//2:]
         al, ar = sort(al), sort(ar)
         return merge(al, ar)
-
-
-print(merge_sort([5, 4, 3, 3, 10, 8, 0, 56, -1, -2]))
