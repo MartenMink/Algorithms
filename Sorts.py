@@ -35,3 +35,4 @@ def merge_sort(array):
         al, ar = a[:n//2], a[n//2:]
         al, ar = sort(al), sort(ar)
         return merge(al, ar)
+    return sort(array)
